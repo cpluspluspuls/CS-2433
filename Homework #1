@@ -1,0 +1,21 @@
+/*Write a program that allows the user to enter a time in seconds and then output how far 
+an object would drop if it were in free fall for that length of time. Assume no friction
+or resistance from air and a constant acceleration of 32 feet per second due to gravity.
+use the equation:
+Distance = 1/2 *acceleration *time^2
+*/
+******************************************************************************************
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int time;
+    cout<<"Enter time in seconds ";
+    cin>> time;
+    double distance = (0.5*32*(time*time));
+    cout<<"An Object is in free fall for " << time << " seconds wil fall " << distance << " feet. ";
+    return 0;
+}
