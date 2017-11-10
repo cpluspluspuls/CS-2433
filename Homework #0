@@ -1,0 +1,20 @@
+/*Create a simple C++ program to output your name. on a new line, output your class status
+and your major. on a third line, output something intresting about yourself. 
+Sample output:
+Art KazmierczakFaculty, 
+Computer Science
+Plays video, card, and board games*/
+***************************************************************************************
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<<"Your name.\n";
+    cout<<"Your standing.\n";
+    cout<<"Your fun fact.\n";
+    return 0;
+}
